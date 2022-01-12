@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 600px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  margin-block: 30px;
+}
+.images {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
