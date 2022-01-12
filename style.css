@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 1rem;
+}
+.container {
+  max-width: 600px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 3vmax;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.quote {
+  font-size: clamp(1.5rem, 6vmin, 1.8rem);
+}
+.quote i {
+  font-size: 8vmin;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: rgb(24, 23, 23);
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
