@@ -1,7 +1,7 @@
 // https://api.unsplash.com/photos/?client_id=YOUR_ACCESS_KEY
-
-const apiKey = "IHuF5peBug-CYZKLRPp4InQNm8LSs_L3hmQQEM5caJw";
-const count = 10;
+ 
+const apiKey = "hidden";
+const count = 10; 
 const imagesContainer = document.querySelector(".images");
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
